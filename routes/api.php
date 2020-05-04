@@ -35,11 +35,11 @@ Route::prefix('v1')->namespace('Api\v1')->group(function () {
 
         Route::post('/account/reset-password' , 'Auth\ResetPasswordController@resetPassword');
 
-        Route::prefix('system')->namespace('Admin\System')->group(function () {
+        /*Route::prefix('system')->namespace('Admin\System')->group(function () {
             Route::resource('/category' , 'CategoryController');
 
             Route::resource('/size' , 'SizeController');
-        });
+        });*/
     });
 
     Route::middleware(['auth:api' , 'verifiedUser'])->group(function() {
@@ -51,11 +51,13 @@ Route::prefix('v1')->namespace('Api\v1')->group(function () {
             Route::delete('/{userId}' , 'AccountDeleteController@delete');
 
             Route::post('change-password' , 'ChangeUserPasswordController@changePassword');
-
-            //Route::post('change-password/{userId}' , 'ChangeUserPasswordController@changePassword');
         });
 
-        Route::middleware(['userIDCardVerified'])->group(function() {
+        Route::prefix('staff')->namespace('User\Staff')->group(function (){
+           Route::post('/add' , 'AddStaffController@addStaff');
+        });
+
+        /*Route::middleware(['userIDCardVerified'])->group(function() {
             Route::resource('request' , 'Request\RequestController');
 
             Route::get('user-request' , 'Request\RequestController@getUsersRequest');
@@ -72,7 +74,7 @@ Route::prefix('v1')->namespace('Api\v1')->group(function () {
 
             Route::post('change-bid-status/{bidId}' , 'Bid\BidStatusController@changeStatus');
 
-        });
+        });*/
     });
 
 
