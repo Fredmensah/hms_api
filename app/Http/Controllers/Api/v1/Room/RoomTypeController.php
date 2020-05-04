@@ -8,6 +8,7 @@ use App\Http\Resources\Room\RoomTypeCollection;
 use App\Http\Resources\Room\RoomTypeResorce;
 use App\Models\Room\RoomType;
 use Illuminate\Database\QueryException;
+use Illuminate\Http\Request;
 
 class RoomTypeController extends Controller
 {
@@ -43,7 +44,7 @@ class RoomTypeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(RoomTypeRequest $request)
+    public function store(Request $request)
     {
         try{
             $imageName = time().'.'.$request->image->getClientOriginalExtension();
