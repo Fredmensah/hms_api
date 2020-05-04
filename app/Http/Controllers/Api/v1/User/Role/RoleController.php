@@ -46,7 +46,7 @@ class RoleController extends Controller
         try{
             $role = Role::create([
                 'name' => $request->name,
-                'gaurd_name' => 'api'
+                'guard_name' => 'api'
             ]);
 
             /*
