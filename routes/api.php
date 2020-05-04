@@ -59,6 +59,9 @@ Route::prefix('v1')->namespace('Api\v1')->group(function () {
 
         Route::resource('/roles' , 'User\Role\RoleController');
 
+        Route::resource('/room_types' , 'Room\RoomTypeController');
+        Route::resource('/rooms' , 'Room\RoomController');
+
         /*Route::middleware(['userIDCardVerified'])->group(function() {
             Route::resource('request' , 'Request\RequestController');
 
