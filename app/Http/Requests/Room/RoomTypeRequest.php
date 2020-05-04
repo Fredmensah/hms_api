@@ -24,7 +24,7 @@ class RoomTypeRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required | min:2 | string | unique:rooms,name',
+            'name' => 'required | min:2 | string | unique:room_types,name',
             'discount' => 'nullable',
             'status' > 'nullable',
             'image' => 'nullable | image|mimes:jpeg,png,jpg,gif,svg | max:5024',
