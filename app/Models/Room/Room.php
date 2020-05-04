@@ -20,7 +20,9 @@ class Room extends Model
         'img_path',
         'discount',
         'description',
-        'room_type_id'
+        'room_type_id',
+        'price',
+        'isOccupied',
     ];
 
     public function room_type()
