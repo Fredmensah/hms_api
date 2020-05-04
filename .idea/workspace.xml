@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="866f2729-2fd8-41c5-89c7-2374b5ab33bc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Room/RoomTypeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Room/RoomTypeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +27,7 @@
           <entry key="env" value="2" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="78" />
+          <entry key="php" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -34,20 +35,20 @@
           <entry key=".env file" value="2" />
           <entry key="Git file" value="1" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="78" />
+          <entry key="PHP" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
           <entry key="env" value="10" />
-          <entry key="php" value="1280" />
+          <entry key="php" value="1281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="10" />
-          <entry key="PHP" value="1280" />
+          <entry key="PHP" value="1281" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -66,14 +67,32 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/Room/RoomTypeController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                <state relative-caret-position="361">
+                  <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
                   <folding>
                     <element signature="e#52#88#0#PHP" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                 </state>
               </provider>
             </entry>
@@ -215,14 +234,14 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_05_04_035827_create_rooms_table.php" />
         <option value="$PROJECT_DIR$/app/Models/Room/Room.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Room/RoomResorce.php" />
-        <option value="$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php" />
         <option value="$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeResorce.php" />
-        <option value="$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php" />
         <option value="$PROJECT_DIR$/app/Models/Room/RoomType.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/Room/RoomRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Room/RoomController.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/Room/RoomTypeRequest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/v1/Room/RoomTypeController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php" />
+        <option value="$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php" />
       </list>
     </option>
   </component>
@@ -621,12 +640,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588554158220</updated>
-      <workItem from="1588554160550" duration="12152000" />
+      <workItem from="1588554160550" duration="12288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12152000" />
+    <option name="totallyTimeSpent" value="12288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="878" extended-state="6" />
@@ -635,7 +654,7 @@
       <window_info id="npm" side_tool="true" />
       <window_info id="DB Browser" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21677852" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -645,7 +664,7 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Regex Tester" />
       <window_info anchor="bottom" id="GraphQL" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.24161074" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.24161074" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -898,20 +917,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Resources/Bid/BidCollection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1039,11 +1044,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/Room/RoomTypeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="361">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="e#52#88#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Room/RoomTypeCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Resources/Room/RoomCollection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

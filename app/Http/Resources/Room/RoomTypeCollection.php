@@ -6,5 +6,5 @@ use Illuminate\Http\Resources\Json\ResourceCollection;
 
 class RoomTypeCollection extends ResourceCollection
 {
-    public $collects = 'App\Http\Resources\Room\RoomTypeResource';
+    public $collects = 'App\Http\Resources\Room\RoomTypeResorce';
 }
