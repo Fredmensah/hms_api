@@ -33,7 +33,7 @@ class CreateAccountProcess
            "token" => random_code(),
         ]);
 
-        $code = $tokenUser->token;
+        /*$code = $tokenUser->token;
 
         $contact = $event->user->contact;
 
@@ -41,6 +41,6 @@ class CreateAccountProcess
 
         $smsResponse = new SMSService($contact , $message);
 
-        $smsResponse->sendMessage();
+        $smsResponse->sendMessage();*/
     }
 }
