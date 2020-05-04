@@ -35,7 +35,7 @@ return [
     */
 
     'channels' => [
-        'stack' => [
+        /*'stack' => [
             'driver' => 'stack',
             'channels' => ['single'],
             'ignore_exceptions' => false,
@@ -44,6 +44,14 @@ return [
         'single' => [
             'driver' => 'single',
             'path' => storage_path('logs/laravel.log'),
+            'level' => 'debug',
+        ],*/
+        'stack' => [
+            'driver' => 'stack',
+            'channels' => ['single'],
+        ],
+        'single' => [
+            'driver' => 'errorlog',
             'level' => 'debug',
         ],
 
